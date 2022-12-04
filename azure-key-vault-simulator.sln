@@ -9,7 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BC24B44C-C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.KeyVault.Simulator", "src\Azure.KeyVault.Simulator\Azure.KeyVault.Simulator.csproj", "{E64E083A-C30C-437E-B78E-E3D4F41E095D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.KeyVault.Simulator.E2E.Tests", "test\Azure.KeyVault.Simulator.E2E.Tests\Azure.KeyVault.Simulator.E2E.Tests.csproj", "{A74D02CE-06FE-4681-9BD7-31BDB55E8074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.KeyVault.Simulator.E2E.Tests", "test\Azure.KeyVault.Simulator.E2E.Tests\Azure.KeyVault.Simulator.E2E.Tests.csproj", "{A74D02CE-06FE-4681-9BD7-31BDB55E8074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{515D18FD-C96E-49CD-9D45-8FF05FC02D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.KeyVault.Simulator.Sample", "Samples\Azure.KeyVault.Simulator.Sample\Azure.KeyVault.Simulator.Sample.csproj", "{C3E95B26-A86B-4347-92AD-C5771E6EF3F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{A74D02CE-06FE-4681-9BD7-31BDB55E8074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74D02CE-06FE-4681-9BD7-31BDB55E8074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74D02CE-06FE-4681-9BD7-31BDB55E8074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E95B26-A86B-4347-92AD-C5771E6EF3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E95B26-A86B-4347-92AD-C5771E6EF3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E95B26-A86B-4347-92AD-C5771E6EF3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E95B26-A86B-4347-92AD-C5771E6EF3F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E64E083A-C30C-437E-B78E-E3D4F41E095D} = {162AB9D6-E4F6-46EB-9DA9-69A189A21AA8}
 		{A74D02CE-06FE-4681-9BD7-31BDB55E8074} = {BC24B44C-CB5F-4783-A6D5-F6AD852ACE38}
+		{C3E95B26-A86B-4347-92AD-C5771E6EF3F5} = {515D18FD-C96E-49CD-9D45-8FF05FC02D71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F59B35F-69B3-483E-B141-627F6A2EDAE7}
