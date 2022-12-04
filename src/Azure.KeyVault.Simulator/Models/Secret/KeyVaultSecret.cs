@@ -1,10 +1,10 @@
-﻿namespace Azure.KeyVault.Simulator.Models
+﻿namespace Azure.KeyVault.Simulator.Models.Secret
 {
     public class KeyVaultSecret
     {
         public string Name { get; set; }
         public string Value { get; set; }
         public string Id { get; set; }
-        public KeyVaultSecretAttributes Attributes { get; set; }
+        public KeyVaultAttributes Attributes { get; set; }
     }
 }
