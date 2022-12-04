@@ -8,7 +8,7 @@
         public CertificateX509Props x509_props { get; set; }
         public List<CertificateLifetimeAction> lifetime_actions { get; set; }
         public CertificateIssuer issuer { get; set; }
-        public CertificateAttributes attributes { get; set; }
+        public KeyVaultAttributes attributes { get; set; }
     }
 
 
