@@ -25,4 +25,4 @@ app.MapKeyVaultSimulatorEndpoint();
   } 
 ```
 * Press F5 or run the proejct
-* Open http://[url with your port]/ e.g. http://localhost:5005/Secrets/SampleCosmosDBConnectionString
+* Open http://[url with your port]/Secrets/[key] e.g. http://localhost:5005/Secrets/SampleCosmosDBConnectionString
