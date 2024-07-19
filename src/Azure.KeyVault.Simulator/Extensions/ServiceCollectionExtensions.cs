@@ -8,7 +8,7 @@ namespace Azure.KeyVault.Simulator.Extensions
     {
         public static IServiceCollection AddKeyVaultSimulatorServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddMediatR(cfg=> cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             services.Configure<KeyVaultConfig>(settings =>
             {
                 configuration.GetSection(nameof(KeyVaultConfig)).Bind(settings);
