@@ -39,4 +39,10 @@
   <ItemGroup>
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\"/>
   </ItemGroup>
+
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Azure.KeyVault.Simulator.E2E.Tests" />
+  </ItemGroup>
+
 </Project>

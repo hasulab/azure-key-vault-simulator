@@ -17,3 +17,5 @@ app.MapGet("/", () => "Hello World!");
 //, [FromServices]ILogger logger
 app.MapKeyVaultSimulatorEndpoint();
 app.Run();
+
+public partial class Program { }
