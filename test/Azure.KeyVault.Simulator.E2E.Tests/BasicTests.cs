@@ -3,7 +3,7 @@ using Azure.Identity;
 
 namespace Azure.KeyVault.Simulator.E2E.Tests
 {
-    public class UnitTest1
+    public class BasicTests
     {
         [Fact]
         public async Task Test1()
